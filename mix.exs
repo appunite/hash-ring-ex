@@ -6,9 +6,9 @@ defmodule HashRing.Mixfile do
       app: :hash_ring_ex,
       version: "1.1.2",
       elixir: "~> 1.0",
-      description: description,
-      package: package,
-      deps: deps,
+      description: description(),
+      package: package(),
+      deps: deps(),
       compilers: [:yecc, :leex, :rebar, :erlang, :elixir, :app]
     ]
   end
